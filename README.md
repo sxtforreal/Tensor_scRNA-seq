@@ -1,8 +1,8 @@
 # Tensor_scRNA-seq   
 Apply tensor method on single cell RNA sequence data   
 
-### Pipeline   
-## Tensor:   
+# Pipeline   
+### Tensor:   
 Convert the 14881*209*15 original data into 14881*3135 matrix   
 Retain genes that are expressed in at least 1%(31) of cells —> 14257*3135   
 Retain half of the genes with highest CV —> 7128*3135   
@@ -12,7 +12,7 @@ HOOI decomposition with r1,r2,r3 = 712,20,5//1068,20,5//1424,20,5//712,30,5//712
 Keep 10 columns from the factor matrix   
 Train SVM and random forest   
 
-## PCA(gene:cell type vs subject):   
+### PCA(gene:cell type vs subject):   
 Convert the 14881*209*15 original data into 223215*209 matrix   
 Retain genes that are expressed in at least 1%(2) of subjects —> 197317*209   
 Retain half of the genes with highest CV —> 98658*209   
