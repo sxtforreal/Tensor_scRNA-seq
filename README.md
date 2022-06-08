@@ -3,7 +3,7 @@ Apply tensor method on single cell RNA sequence data
 
 ### Pipeline
 Tensor:
-Convert the 14881*209*15 original data into 14881*3135 matrix
+Convert the 14881*209*15 original data into 14881*3135 matrix \n
 Retain genes that are expressed in at least 1%(31) of cells —> 14257*3135
 Retain half of the genes with highest CV —> 7128*3135
 Row-wise standardization
