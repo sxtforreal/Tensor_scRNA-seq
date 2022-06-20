@@ -13,10 +13,10 @@ Keep 10 columns from the factor matrix
 Train SVM and random forest   
 
 ### PCA(gene:cell type vs subject):   
-Convert the 14881*209*15 original data into 223215*209 matrix   
-Retain genes that are expressed in at least 1%(2) of subjects —> 197317*209   
-Retain half of the genes with highest CV —> 98658*209   
-Transpose into 209*98658 matrix and do PCA with centering and scaling   
-The score matrix is of size 209*209   
-Keep first 10 PCs   
+Convert the 14881*262*13 original data into 193453*262 matrix
+Retain genes that are expressed in at least 1%(2) of subjects —> 189285*262
+Retain half of the genes with highest CV —> 94642*262
+Transpose into 262*94642 matrix and do PCA with centering and scaling
+The score matrix is of size 262*262
+Keep first 10 PCs
 Train SVM and random forest   
